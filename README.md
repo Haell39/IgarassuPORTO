@@ -3,6 +3,15 @@
 Projeto fullstack desenvolvido com **Laravel 11**, **React** e **Inertia.js**, com foco em simplicidade, produtividade e integração direta entre frontend e backend.
 
 
+## 🗂️ Estrutura do Projeto
+```text
+/IgarassuPORTO
+├── igarassu_back/       # Backend - API Laravel + Inertia
+├── igarassu_front/      # Frontend - React com Vite
+├── README.md            # Documentação do projeto
+└── LICENSE              # Licença MIT
+```
+
 ## 🚀 Tecnologias Utilizadas
 
 ### Backend (`igarassu_back`)
