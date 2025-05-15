@@ -3,7 +3,6 @@
 Projeto fullstack desenvolvido com **Laravel 11**, **React** e **Inertia.js**, com foco em simplicidade, produtividade e integração direta entre frontend e backend.
 
 
-
 ## 🚀 Tecnologias Utilizadas
 
 ### Backend (`igarassu_back`)
@@ -26,7 +25,6 @@ Projeto fullstack desenvolvido com **Laravel 11**, **React** e **Inertia.js**, c
 * [ ] Continuação da conexão no backend
 * [ ] Feedbacks visuais (loading/success)
 * [ ] Deploy 
-
 
 
 ## 👨‍💻 Autor(s)
