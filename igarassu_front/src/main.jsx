@@ -1,7 +1,6 @@
-
-import { createInertiaApp } from '@inertiajs/inertia-react'
-import { createRoot }       from 'react-dom/client'
-import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
+import { createInertiaApp } from '@inertiajs/react'; // mudei para @inertiajs/react
+import { createRoot } from 'react-dom/client';
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
 createInertiaApp({
   // Diz onde estão as “páginas” 
@@ -13,6 +12,6 @@ createInertiaApp({
 
   // Como renderizar o App Inertia
   setup({ el, App, props }) {
-    createRoot(el).render(<App {...props} />)
+    createRoot(el).render(<App {...props} />);
   },
-})
+});

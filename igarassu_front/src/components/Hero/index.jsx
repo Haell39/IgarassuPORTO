@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { Link } from "@inertiajs/inertia-react";
+import { Link } from "@inertiajs/react";
 import { HandleSetFormType } from "../../manager";
 
 import HeroImg from "../../assets/Hero.png";

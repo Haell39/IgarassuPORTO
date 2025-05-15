@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { useState } from "react";
-import { useForm } from "@inertiajs/inertia-react";
+import { useForm } from "@inertiajs/react";
 
 export default function Form({ type }) {
     switch (type) {
@@ -72,7 +72,7 @@ function Agendamento() {
 
 //#region Error
 import { useEffect } from "react";
-import { Inertia } from "@inertiajs/inertia-react";
+import { Inertia } from "@inertiajs/react";
 
 function ErrorPage() {
     const [count, setCount] = useState(10);
@@ -96,9 +96,7 @@ function ErrorPage() {
             <div className={styles.content}>
                 <h1>Error 404</h1>
                 <div className={styles.line} />
-                <h4>
-                    Redirecionando para tela inicial em {count} segundos
-                </h4>
+                <h4>Redirecionando para tela inicial em {count} segundos</h4>
             </div>
         </div>
     );

@@ -12,6 +12,7 @@
     "dependencies": {
         "@inertiajs/progress": "^0.2.7",
         "@inertiajs/react": "^2.0.9",
+        "laravel-vite-plugin": "^1.2.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0"
     },

@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { Link, Inertia } from "@inertiajs/inertia-react";
+import { Link, Inertia } from "@inertiajs/react";
 import { HandleSetFormType } from "../../manager";
 
 import Img from "../../assets/logo igarassu.svg";
