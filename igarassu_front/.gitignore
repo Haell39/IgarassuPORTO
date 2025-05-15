@@ -1,0 +1,47 @@
+# logs vão aqui
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# O Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencias e tals
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+build/
+
+# O cache do vite
+.vite/
+
+# System files (padrao)
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env.local
+.env.*.local
+
+# configurações dos editores
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# sistemas mac e linux
+*.swp
+*.swo
